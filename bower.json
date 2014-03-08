@@ -1,7 +1,11 @@
 {
   "name": "RunAwayBtn",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "RunAwayBtn.js",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
   "dependencies": {
     "jquery": "*"
   }
