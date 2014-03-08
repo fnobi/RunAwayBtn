@@ -1,0 +1,8 @@
+{
+  "name": "RunAwayBtn",
+  "version": "0.0.0",
+  "main": "RunAwayBtn.js",
+  "dependencies": {
+    "jquery": "*"
+  }
+}
