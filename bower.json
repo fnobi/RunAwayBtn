@@ -4,7 +4,8 @@
   "main": "RunAwayBtn.js",
   "ignore": [
     "node_modules",
-    "bower_components"
+    "bower_components",
+    "demo"
   ],
   "dependencies": {
     "jquery": "*"

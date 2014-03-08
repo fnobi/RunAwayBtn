@@ -9,6 +9,10 @@
         var x = 0;
         var y = 0;
 
+        $el.css({
+            position: 'absolute'
+        });
+
         $el.on('mouseover touchstart', function () {
             var windowWidth = $window.width();
             var windowHeight = $window.height();
