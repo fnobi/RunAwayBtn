@@ -8,6 +8,7 @@
     "demo"
   ],
   "dependencies": {
-    "jquery": "*"
+    "jquery": "*",
+    "EventEmitter": "~1.0.1"
   }
 }

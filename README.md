@@ -3,6 +3,9 @@ RunAwayBtn
 
 Run away button.
 
+## dependencies
+ - [jquery](http://github.com/jquery/jquery)
+
 ## usage
 
 ```html
