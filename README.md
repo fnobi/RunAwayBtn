@@ -32,6 +32,10 @@ var btn = new RunAwayBtn({
   yMargin: 50
 });
 
+btn.on('jump', function () {
+  console.log('jump');
+});
+
 btn.on('jump:4', function () {
   alert('this is 4th jump!\nand, good bye.');
   btn.jumpTo(-100, -100);
