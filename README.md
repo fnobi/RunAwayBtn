@@ -26,13 +26,17 @@ Run away button.
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="../RunAwayBtn.js"></script>
 <script>
-new RunAwayBtn({
+var btn = new RunAwayBtn({
   $el: $('#run-away-btn'),
   xMargin: 50,
   yMargin: 50
 });
+
+btn.on('jump:4', function () {
+  alert('this is 4th jump!\nand, good bye.');
+  btn.jumpTo(-100, -100);
+});
 </script>
 </body>
 </html>
-
 ```
